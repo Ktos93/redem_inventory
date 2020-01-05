@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `user_inventory` (
   `identifier` varchar(50) COLLATE utf8mb4_bin NOT NULL,
   `charid` int(11) NOT NULL,
-  `items` varchar(2040) COLLATE utf8mb4_bin NOT NULL
+  `items` varchar(8000) COLLATE utf8mb4_bin NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
 
